@@ -1,0 +1,107 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: "Barlow Semi Condensed", serif;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    margin-left: 12rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+    width: 20rem; 
+}
+
+.feat{
+   
+    margin: 0;
+}
+.name{
+   font-weight: 500;
+}
+
+.card{
+    background-color: hsl(263, 55%, 52%) ;
+    font-size: 13px;
+    width: 29.5rem;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    padding: 28px;
+}
+.card .header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;  
+    margin-top: 10px; 
+    gap: 15px;  
+}
+.card .Verified{
+    color: hsl(0, 0%, 81%);
+}
+.card .intro{
+    font-size: 20px;
+    font-weight:600 ;
+    margin: 10px 0;
+    
+}
+.card .text{
+    color:  hsl(207, 6%, 65%);
+    font-weight: 500;
+}
+.card img {
+    width: 28px;
+    height: auto;
+    border-radius: 50%;
+    top: 20px;
+    right: 20px;
+    border: 2px solid rgba(245, 245, 245, 0.4) ;
+}
+.card1{
+    color: hsl(0, 0%, 100%);
+   
+}
+.card2{
+    background-color:hsl(217, 19%, 35%) ;
+    color: white;
+    font-size: 13px;
+    width: 192px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.card3{
+    background-color:white;
+    color: hsl(217, 19%, 35%);
+    font-size: 13px;
+    width: 192px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.card4{
+    color: white;
+    background-color: hsl(219, 29%, 14%);
+}
+.card5{
+     color:hsl(219, 29%, 14%) ;
+     background-color: white;
+     width: 192px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+   grid-row: span 3;
+}
+
+.card .large {
+    grid-column: span 2;
+}
+p{
+    margin: 0;
+}
